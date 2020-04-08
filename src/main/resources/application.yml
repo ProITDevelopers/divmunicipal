@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://bega-wallet-manager.coqobbx0dlpx.eu-west-3.rds.amazonaws.com:3306/divmunicial?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Africa/Luanda&useLegacyDatetimeCode=false
+    username: bega2020admin
+    password: wallet345#spboo0983
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true

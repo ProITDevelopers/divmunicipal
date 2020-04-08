@@ -1,0 +1,14 @@
+package ao.proitconsulting.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.Data;
+
+@Data
+public class ComunaDetalhes {
+	private Long id;
+	@JsonProperty(value = "comuna")
+	private String nome;
+	private String municipio;
+	private String provincia;
+}
